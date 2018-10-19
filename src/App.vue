@@ -1,4 +1,20 @@
 
+<style scoped>
+    .myContainer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .myHeader {
+        background-color: #333;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 60px;
+    }
+</style>
+
+
 <style>
     #app {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -16,17 +32,8 @@
         padding: 0px;
     }
 
-    .myContainer {
-        width: 100%;
-        height: 100%;
-    }
-
-    .myHeader {
-        background-color: #333;
-        color: white;
-        font-size: 24px;
-        font-weight: bold;
-        line-height: 60px;
+    a {
+        text-decoration: none;
     }
 </style>
 

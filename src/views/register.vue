@@ -20,9 +20,14 @@
             <el-form-item label="登录密码">
                 <el-input placeholder="请输入密码" type="password" v-model="loginPassword"></el-input>
             </el-form-item>
+            <el-form-item label="确认密码">
+                <el-input placeholder="请输入密码" type="password" v-model="loginPassword"></el-input>
+            </el-form-item>
+            <el-form-item label="邮箱">
+                <el-input placeholder="请输入邮箱" type="email" v-model="loginPassword"></el-input>
+            </el-form-item>
             <el-form-item>
-                <el-button type="primary">登录</el-button>
-                <router-link to="/register">注册用户</router-link>
+                <el-button type="primary">注册</el-button>
             </el-form-item>
         </el-form>
     </div>
